@@ -12,6 +12,11 @@
   </div>
 </div>
 <header class="topbar"><div class="brand"><svg viewBox="0 0 48 48"><defs><linearGradient id="g"><stop stop-color="#6ee7f9"/><stop offset="1" stop-color="#5b5ff7"/></linearGradient></defs><path fill="url(#g)" d="M6 13 40 6c2-.4 3.3 2.2 1.6 3.5L29 19.5l-3 17.2c-.4 2.3-3.5 2.8-4.7.8L15 27 6.2 21.4C4.3 20.2 4.8 17 7 16.4l14.8-4-10 6.8 8 5.1 7.2-5.8-10.3 6.3 6.2 9.3 2.6-15.2L39 8.4 6 14.7z"/></svg><div><strong>ShiftPilot</strong><small>Forecast & Schedule Studio</small></div></div><nav><button class="nav active" data-view="forecast">Forecast</button><button class="nav" data-view="schedule">Schedule</button><button class="nav" data-view="insights">Insights</button></nav><div class="header-actions"><button id="languageToggle" class="language-toggle" type="button">Language: Plain English</button><span class="pill">Interactive prototype</span></div></header>
+<nav class="mobile-nav" aria-label="Main navigation">
+  <button class="nav mobile-nav-button active" data-view="forecast" type="button"><span>⌁</span><b>Forecast</b></button>
+  <button class="nav mobile-nav-button" data-view="schedule" type="button"><span>♙</span><b>Schedule</b></button>
+  <button class="nav mobile-nav-button" data-view="insights" type="button"><span>▥</span><b>Insights</b></button>
+</nav>
 <aside><button class="active">⌁</button><button>♙</button><button>▥</button><button>⚙</button></aside>
 <main>
 <section id="forecastView" class="view active"><div class="pagehead"><div><span class="kicker">Guided forecasting</span><h1>Build demand without being a forecaster</h1><p>Answer practical questions, recognise the shape, and generate an interval forecast.</p></div><div class="progressbox"><span>Setup progress</span><b id="progressText">1 of 4</b><i><em id="progressBar"></em></i></div></div>
